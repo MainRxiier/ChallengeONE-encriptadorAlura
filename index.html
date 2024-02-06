@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>ENCRIPTADOR ALURA</title>
+</head>
+<body>
+    <h1 class="titulo">Bienvenido al ENCRIPTADOR</h1>
+<form class="dad">
+    <div class="cnt">
+        <label for="intro">Entrada:</label></br>
+        <textarea maxlength="2000" minlength="4" id="intro" placeholder="Ingrese el texto aquí" class="intro" required></textarea></br>
+    </div>
+
+   <div class="cnt">
+        <h1 class="proc">Procesador:</h1>
+        <label for="key">Llave de cifrado:</label>
+        <input type="text" id="key" class="key"maxlength="4" required>
+        <p class="textInfo">Para validar, escriba su llave de cifrado de 4 caracteres y pulse <B>ENCRIPTAR</B> o <B>DESENCRIPTAR</B></p>
+        <div class="toCenter">
+            <input class="btn" type="button" value="ENCRIPTAR" onclick="DefinirClave(), Encriptar();">
+            <input class="btn" type="button" value="DESENCRIPTAR" onclick="DefinirClave(), DesEncriptar();">
+        </div>
+    </div>
+    
+ <div class="cnt">
+        <label for="ans">Salida:</label><br>
+        <input type="text" id="ans" class="outro" placeholder="El resultado se vera aquí"><br>
+    <input class="btn" style="position: relative; margin-left: 35%;" value="CAMBIAR" type="button" onclick="cambiar();">
+    <input class="btn" value="COPIAR" id="copibtn" type="button" onclick="copiar();">
+    </div>
+
+</form>
+<footer><a href="https://www.linkedin.com/in/main-royer/" target="_blank" class="secret"> ESTO ES UN SECRETO </a></footer>
+<script type="text/javascript" src="back.js"></script>
+</body>
+</html>
