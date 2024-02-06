@@ -4,6 +4,6 @@ El codigo javascript esta basado en cerca de otros 3 codigos, pues mi objetivo f
 
 Los principales problemas a los que me enfrente fueron el manejo de los tipos de datos para la encriptación de el texto.
 
-Sientete libre de usarlo como base para que tu tambien completes el codigo, mejoralo, optimizalo y usalo :D
+Sientete libre de usarlo como base para que tu tambien completes el Challenge; mejoralo, optimizalo y usalo :D
 
 -royer_delgado
